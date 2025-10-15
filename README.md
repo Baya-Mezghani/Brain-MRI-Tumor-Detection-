@@ -20,7 +20,7 @@ This project implements a **Convolutional Neural Network (CNN)** to detect brain
 ---
 
 ## Dataset
-- Brain MRI images (public dataset: [provide link if applicable])
+- Brain MRI images ([public dataset:](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/data))
 - Classes:
   - `Tumor`
   - `No Tumor`
