@@ -1,0 +1,16 @@
+# Core dependencies
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# Image processing
+opencv-python==4.10.0.84
+Pillow==10.3.0
+numpy==1.26.4
+
+# Web interface
+streamlit==1.35.0
+
+
+# (Optional but recommended)
+tqdm==4.66.4  # progress bars during training
