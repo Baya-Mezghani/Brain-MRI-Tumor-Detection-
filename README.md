@@ -6,13 +6,13 @@ The goal is to explore deep learning techniques for medical image classification
 ---
 
 ## Features
--Custom CNN architecture for brain MRI classification.
--Preprocessing pipeline including image normalization and resizing.
--Data balancing techniques (limited augmentation and resampling to handle class imbalance).
--Train/validation/test split with PyTorch DataLoader.
--Model training with loss monitoring, accuracy metrics, and visualization of learning curves.
--Exported trained model for inference.
--Streamlit web app for user-friendly tumor detection.
+- Custom CNN architecture for brain MRI classification.
+- Preprocessing pipeline including image normalization and resizing.
+- Data balancing techniques (limited augmentation and resampling to handle class imbalance).
+- Train/validation/test split with PyTorch DataLoader.
+- Model training with loss monitoring, accuracy metrics, and visualization of learning curves.
+- Exported trained model for inference.
+- Streamlit web app for user-friendly tumor detection.
 
 ---
 
@@ -50,8 +50,8 @@ streamlit run streamlit_app.py
 ## Results
 
 ### Model Performance
-- Accuracy: 0.73 
--Comments: This baseline CNN achieved 0.73 accuracy with limited data augmentation. Current work focuses on improving the model architecture, tuning hyperparameters, and experimenting with regularization techniques. Future comparisons will include transfer learning using pre-trained networks.
+- Accuracy: 0.84 
+-Comments: This baseline CNN achieved 0.84 accuracy with limited data augmentation. Current work focuses on improving the model architecture, tuning hyperparameters, and experimenting with regularization techniques. Future comparisons will include transfer learning using pre-trained networks.
 ---
 
 ### Example Predictions
@@ -63,6 +63,6 @@ streamlit run streamlit_app.py
 
 | MRI Image | Model Prediction |
 |-----------|----------------|
-| ![brain1](screenshots/brain1.jpg) | Tumor |
-| ![brain2](screenshots/brain2.jpg) | No Tumor |
+| ![brain1](screenshots/brain1.png) | Tumor |
+| ![brain2](screenshots/brain2.png) | No Tumor |
 
