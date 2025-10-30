@@ -51,7 +51,7 @@ streamlit run streamlit_app.py
 
 ### Model Performance
 - Accuracy: 0.84 
--Comments: This baseline CNN achieved 0.84 accuracy with limited data augmentation. Current work focuses on improving the model architecture, tuning hyperparameters, and experimenting with regularization techniques. Future comparisons will include transfer learning using pre-trained networks.
+- Comments: This baseline CNN achieved 0.84 accuracy with limited data augmentation. Current work focuses on improving the model architecture, tuning hyperparameters, and experimenting with regularization techniques. Future comparisons will include transfer learning using pre-trained networks.
 ---
 
 ### Example Predictions
