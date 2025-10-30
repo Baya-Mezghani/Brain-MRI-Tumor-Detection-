@@ -12,12 +12,3 @@ __pycache__/
 *.h5
 *.ckpt
 
-# Django files
-*.sqlite3
-*.log
-.env
-
-# OS and IDE files
-.DS_Store
-Thumbs.db
-*.vscode/
