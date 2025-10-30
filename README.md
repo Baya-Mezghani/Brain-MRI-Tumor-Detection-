@@ -1,38 +1,26 @@
 # 🧠 Brain Tumor Detection using CNN on MRI Scans
 
 ## Project Overview
-This project implements a **Convolutional Neural Network (CNN)** to detect brain tumors from MRI scans. Developed with **PyTorch**, the model classifies tumor presence in MRI images. Key features include:
-
-- **Data augmentation** for better generalization.
-- **Streamlit app** for interactive predictions.
-- End-to-end pipeline: data preprocessing → model training → evaluation → deployment.
-
+This project implements a Convolutional Neural Network (CNN) to detect brain tumors from MRI scans. Built with PyTorch, the model classifies MRI images into tumor and non-tumor categories.
+The goal is to explore deep learning techniques for medical image classification and evaluate model performance using both a custom CNN and (in future work) transfer learning approaches.
 ---
 
 ## Features
-- Custom **CNN architecture** for MRI classification.
-- Preprocessing and **augmentation** (rotation, flipping, scaling).
-- Split data into **training**, **validation**, and **testing** sets.
-- PyTorch training with **loss calculation**, **accuracy metrics**, and **visualizations**.
-- Exported model for inference.
-- **Streamlit interface** for user-friendly predictions.
+-Custom CNN architecture for brain MRI classification.
+-Preprocessing pipeline including image normalization and resizing.
+-Data balancing techniques (limited augmentation and resampling to handle class imbalance).
+-Train/validation/test split with PyTorch DataLoader.
+-Model training with loss monitoring, accuracy metrics, and visualization of learning curves.
+-Exported trained model for inference.
+-Streamlit web app for user-friendly tumor detection.
 
 ---
 
 ## Dataset
-- Brain MRI images ([public dataset:](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/data))
+- Brain MRI Images for Brain Tumor Detection (Kaggle) ([Source](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/data))
 - Classes:
   - `Tumor`
   - `No Tumor`
-
----
-
-## Project Structure
-
-
-
-
-
 
 ---
 
@@ -62,9 +50,8 @@ streamlit run streamlit_app.py
 ## Results
 
 ### Model Performance
-- **Accuracy:** 0.73  
-- **Comments:** This is a solid baseline for a custom CNN with data augmentation. Further improvements are possible with transfer learning or advanced architectures.
-
+- Accuracy: 0.73 
+-Comments: This baseline CNN achieved 0.73 accuracy with limited data augmentation. Current work focuses on improving the model architecture, tuning hyperparameters, and experimenting with regularization techniques. Future comparisons will include transfer learning using pre-trained networks.
 ---
 
 ### Example Predictions
