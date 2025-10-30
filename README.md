@@ -1,7 +1,7 @@
 # 🧠 Brain Tumor Detection using CNN on MRI Scans
 
 ## Project Overview
-This project implements a Convolutional Neural Network (CNN) to detect brain tumors from MRI scans. Built with PyTorch, the model classifies MRI images into tumor and non-tumor categories.
+- This project implements a Convolutional Neural Network (CNN) to detect brain tumors from MRI scans. Built with PyTorch, the model classifies MRI images into tumor and non-tumor categories.
 The goal is to explore deep learning techniques for medical image classification and evaluate model performance using both a custom CNN and (in future work) transfer learning approaches.
 ---
 
